@@ -1,0 +1,153 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* HEADER */
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 28px;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+header nav ul li a:hover {
+
+    color: #f39c12;
+}
+
+
+/* HERO SECTION */
+.sc {
+    background-color: black ;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.sc h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.sc p {
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.sc a  {
+    padding: 12px 25px;
+    border: none;
+    background-color: #f39c12;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sc a:hover {
+    background-color: #d35400;
+}
+
+/* SHOWROOM SECTION */
+.showroom {
+    padding: 60px 40px;
+}
+
+.showroom h2 {
+    text-align: center;
+    margin-bottom: 40px;
+
+    font-size: 32px;
+}
+
+/* CAR CONTAINER */
+.car-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+/* CAR CARD */
+.car-card {
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.car-card h3 {
+    margin: 15px 0 5px;
+}
+
+.car-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: white;
+}
+
+.car-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #111;
+    color: white;
+
+    cursor: pointer;
+}
+
+.car-card button:hover {
+    background-color: #f39c12;
+    color: black;
+}
+
+/* FOOTER */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
